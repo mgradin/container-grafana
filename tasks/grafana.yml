@@ -4,6 +4,8 @@
     path: "{{ VAR_GRAFANA_DIR }}"
     recurse: yes
     state: directory
+    owner: 472
+    group: 472
 
 - name: Start Grafana container
   docker_container:
