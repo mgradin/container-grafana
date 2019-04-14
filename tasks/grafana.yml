@@ -16,6 +16,7 @@
     env:
        GF_SERVER_ROOT_URL: "{{ GF_SERVER_ROOT_URL }}"
        GF_SECURITY_ADMIN_PASSWORD: "{{ GF_SECURITY_ADMIN_PASSWORD }}"
+       GF_INSTALL_PLUGINS: "grafana-piechart-panel"
     labels:
       traefik.backend=grafana
       "traefik.frontend.rule=Host:{{ VAR_GRAFANA_URL }}"
