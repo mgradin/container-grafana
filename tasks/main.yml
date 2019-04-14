@@ -1,0 +1,5 @@
+---
+# tasks file for container-grafana
+- import_tasks: grafana.yml
+  become: true
+

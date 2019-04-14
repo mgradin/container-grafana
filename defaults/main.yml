@@ -1,0 +1,6 @@
+---
+# defaults file for container-grafana
+VAR_GRAFANA_DIR: /opt/grafana
+VAR_GRAFANA_URL: grafana.example.com
+GF_SERVER_ROOT_URL: "https://grafana.example.com"
+GF_SECURITY_ADMIN_PASSWORD: admin
